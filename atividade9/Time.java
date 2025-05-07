@@ -1,4 +1,5 @@
 package atividade9;
+
 public class Time {
     String nome;
     int pontos;

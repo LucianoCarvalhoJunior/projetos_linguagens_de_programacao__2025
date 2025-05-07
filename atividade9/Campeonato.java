@@ -66,4 +66,8 @@ public class Campeonato {
             times.stream().filter(t -> t.pontos == maxPontos).forEach(t -> System.out.println(t.nome));
         }
     }
+
+    public List<Time> getTimes() {
+        return times;
+    }
 }
